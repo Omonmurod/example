@@ -22,12 +22,12 @@
  
 
 //MODULE PACKAGE EXTERNAL
-// const moment = require ("moment");
+const moment = require ("moment");
 
-// setInterval(() => {
-//   const time = moment().format();
-//   console.log(`Hozirgi vaqt: ${time}`);
-// }, 1000);
+setInterval(() => {
+  const time = moment().format();
+  console.log(`Hozirgi vaqt: ${time}`);
+}, 1000);
 
 // const inquirer = require('inquirer');
 // inquirer
@@ -65,14 +65,14 @@
 // const natija2 = calculate.qoshish(50, 33);
 // console.log('Natija:', natija2);
 
-const Account = require("./account");
-Account.tellMeAboutClass();
-Account.tellMeTime();
+// const Account = require("./account");
+// Account.tellMeAboutClass();
+// Account.tellMeTime();
 
-console.log("============ H ============");
+// console.log("============ H ============");
 
-const myAccount = new Account('Jacob', 500000, 09723498742);
-myAccount.giveMeDetails();
+// const myAccount = new Account('Jacob', 500000, 09723498742);
+// myAccount.giveMeDetails();
 
-myAccount.makeDeposit(1000000);
-myAccount.withdrawMoney(400000);
+// myAccount.makeDeposit(1000000);
+// myAccount.withdrawMoney(400000);
